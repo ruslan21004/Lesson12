@@ -11,8 +11,8 @@ namespace Homework12
         public string model { get; set; }
         public string name_OfEngine { get; set; }
         public double volume_OfEngine { get; set; }
-        public string name_OfWheel { get; set; }
-
+        public string name_OfWheel { get; set; }//use private for the fields in order to follow to incapsulation principle
+       
         public Vehicle(string name_OfCar, string model, string name_OfEngine, double volume_OfEngine, string name_OfWheel)
         {
             this.name_OfCar = name_OfCar;
@@ -28,3 +28,4 @@ namespace Homework12
         }
     }
 }
+//checked
